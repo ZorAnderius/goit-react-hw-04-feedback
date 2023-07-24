@@ -1,0 +1,43 @@
+.btn_conteiner {
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  max-width: 640px;
+  width: 100%;
+  gap: 20px;
+}
+
+.btn_conteiner button:first-child {
+  background-color: rgb(81, 206, 81);
+  color: white;
+  box-shadow: 0px 0px 17px 0px rgba(81, 206, 81, 0.75);
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(81, 206, 81, 0.75);
+  -moz-box-shadow: 0px 0px 17px 0px rgba(81, 206, 81, 0.75);
+}
+
+.btn_conteiner button:first-child:is(:hover, :focus) {
+  color: rgb(81, 206, 81);
+  background-color: white;
+  font-weight: 600;
+  box-shadow: 0px 0px 17px 0px rgba(81, 206, 81, 0.75) inset;
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(81, 206, 81, 0.75) inset;
+  -moz-box-shadow: 0px 0px 17px 0px rgba(81, 206, 81, 0.75) inset;
+}
+
+.btn_conteiner button:last-child {
+  background-color: rgb(238, 92, 92);
+  color: white;
+  box-shadow: 0px 0px 17px 0px rgba(238, 92, 92, 0.75);
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(238, 92, 92, 0.75);
+  -moz-box-shadow: 0px 0px 17px 0px rgba(238, 92, 92, 0.75);
+}
+
+.btn_conteiner button:last-child:is(:hover, :focus) {
+  color: rgb(238, 92, 92);
+  background-color: white;
+  font-weight: 600;
+
+  box-shadow: 0px 0px 17px 0px rgba(238, 92, 92, 0.75) inset;
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(238, 92, 92, 0.75) inset;
+  -moz-box-shadow: 0px 0px 17px 0px rgba(238, 92, 92, 0.75) inset;
+}

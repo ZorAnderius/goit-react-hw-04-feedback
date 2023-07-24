@@ -1,0 +1,15 @@
+.feedback-section-container {
+  margin-bottom: 30px;
+  min-height: 200px;
+  height: 100%;
+}
+
+.stat-section-container {
+  padding-bottom: 20px;
+  min-width: 100%;
+  min-height: 150px;
+  background-color: rgb(218, 231, 245);
+  border-top: 1px solid rgb(170, 172, 173);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
